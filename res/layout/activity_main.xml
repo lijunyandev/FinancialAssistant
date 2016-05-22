@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/main_relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bg_1116601" >
+
+        <RelativeLayout
+            android:id="@+id/main_relativeLayout_top_bar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/main_of_navigation_bg" >
+
+            <TextView
+                android:id="@+id/main_tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="BN理财助手"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/main_relativeLayout_bottom_bar"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/yh_main_of_navigation_bg" >
+
+            <Button
+                android:id="@+id/main_bn_exit"
+                android:layout_width="40dp"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_selector_main_exit" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/main_bn_account"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_below="@+id/main_relativeLayout_top_bar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/feed_iko_money" />
+        
+        <Button
+            android:id="@+id/main_bn_notepad"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_below="@+id/main_bn_account"
+            android:layout_marginRight="30dp"
+            android:layout_toLeftOf="@+id/main_bn_account"
+            android:background="@drawable/ccr_deduct_welcome_icon1" />
+        
+        <Button
+            android:id="@+id/main_bn_stock"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@+id/main_bn_account"
+            android:layout_toRightOf="@+id/main_bn_account"
+            android:background="@drawable/feed_iko_overview" />
+        
+         <Button
+            android:id="@+id/main_bn_law"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_below="@+id/main_bn_notepad"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_toLeftOf="@+id/main_bn_account"
+            android:background="@drawable/feed_iko_school" />
+         
+         <Button
+            android:id="@+id/main_bn_instructions"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_below="@+id/main_bn_stock"
+            android:layout_toRightOf="@+id/main_bn_account"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/overview_graf_otaznik" />
+
+        <Button
+            android:id="@+id/main_bn_calculator"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_alignRight="@+id/main_bn_account"
+            android:layout_below="@+id/main_bn_instructions"
+            android:background="@drawable/passcode_ikona" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

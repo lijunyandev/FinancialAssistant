@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/notepad_edit_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/yh_main_of_navigation_bg"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/notepad_edit_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/back_button_selector" />
+
+        <TextView
+            android:id="@+id/notepad_edit_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="编辑"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/notepad_edit_save"
+            android:layout_width="45dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/yh_main_of_navigation_bg"
+            android:text="保存"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/notepad_edit_lay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/notepad_edit_time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="9" />
+
+        <EditText
+            android:id="@+id/notepad_edit_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left|top"
+            android:inputType="textMultiLine" />
+    </LinearLayout>
+
+</LinearLayout>

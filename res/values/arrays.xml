@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 
+    <string-array name="instructions">
+		<item >版本号：1.0.0</item>
+		<item >功能介绍</item>
+    </string-array> 
+    
+    <!-- 支出类别 -->
+    <string-array name="pay_Category">
+        <item >餐饮</item>
+        <item >交通</item>
+        <item >购物</item>
+        <item >娱乐</item>
+        <item >医疗教育</item>
+        <item >居家生活</item>
+        <item >投资</item>
+        <item >人情</item>
+    </string-array>
+    <!-- 账户 -->
+    <string-array name="Account">
+        <item >现金</item>
+        <item >信用卡</item>
+        <item >储蓄</item>
+        <item >网上支付</item>
+    </string-array>
+    <!-- 项目 -->
+    <string-array name="Project">
+        <item >日常</item>
+        <item >婚嫁</item>
+        <item >旅游</item>
+        <item >装修</item>
+        <item >公司</item>
+        <item >房产</item>
+    </string-array>
+    <!-- 成员 -->
+    <string-array name="Member">
+        <item >自己</item>
+        <item >配偶</item>
+        <item >孩子</item>
+        <item >父母</item>
+        <item >朋友</item>
+        <item >家庭公用</item>
+    </string-array>
+    <!-- 收入类别 -->
+    <string-array name="income_Category">
+        <item >工资</item>
+        <item >兼职</item>
+        <item >股票</item>
+        <item >基金</item>
+        <item >分红</item>
+        <item >利息</item>
+        <item >奖金</item>
+        <item >补贴</item>
+        <item >礼金</item>
+        <item >租金</item>
+        <item >应收款</item>
+        <item >销售款</item>
+        <item >报销款</item>
+        <item >漏记款</item>
+        <item >其他</item>
+    </string-array>
+</resources>

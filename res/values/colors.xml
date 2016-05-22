@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="white_yellow">#FFFFCC</color>
+    <color name="white_green">#CCFF99</color>
+    <color name="white_blue">#CCFFFF</color>
+    <color name="paper">#660066</color>
+    <color name="gravy">#F2F2F2</color>
+    <color name="green">#009900</color>
+    <color name="red">#CC0000</color>
+    <color name="blue">#0000FF</color>
+    <color name="blue_light">#00CCFF</color>
+    <color name="blue_deep">#000066</color>
+    <color name="black">#000000</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="accountBg">#dbe2ec</color>
+    <color name="accoutTitle">#4a5158</color>
+    <color name="accountCk">#FFCC33</color>
+    <color name="accountSv">#006600</color>
+</resources>

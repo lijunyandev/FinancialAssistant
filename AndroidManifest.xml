@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jackli.financialassistant"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".welcomepage.WelcomePageActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".welcomepage.GuideActivity"></activity>
+        
+        <activity android:name=".mainactivity.MainActivity"></activity>
+        
+        <activity android:name=".account.AccountActivity"></activity>
+        <activity android:name=".account.PayActivity"></activity>
+        <activity android:name=".account.IncomeActivity"></activity>
+        <activity android:name=".account.PayListActivity"></activity>
+        <activity android:name=".account.IncomeListActivity"></activity>
+        
+        <activity android:name=".notepad.NotepadActivity"></activity>
+        <activity android:name=".notepad.NotepadEditActivity"></activity>
+        
+        <activity android:name=".calculator.CalculatorActivity"></activity>
+        
+        <activity android:name=".instructions.InstructionsActivity"></activity>
+    </application>
+
+</manifest>
